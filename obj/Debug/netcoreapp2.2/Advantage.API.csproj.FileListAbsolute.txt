@@ -1,0 +1,14 @@
+E:\Cal\CSharp\Advantage.API\bin\Debug\netcoreapp2.2\Advantage.API.deps.json
+E:\Cal\CSharp\Advantage.API\bin\Debug\netcoreapp2.2\Advantage.API.runtimeconfig.json
+E:\Cal\CSharp\Advantage.API\bin\Debug\netcoreapp2.2\Advantage.API.runtimeconfig.dev.json
+E:\Cal\CSharp\Advantage.API\bin\Debug\netcoreapp2.2\Advantage.API.dll
+E:\Cal\CSharp\Advantage.API\bin\Debug\netcoreapp2.2\Advantage.API.pdb
+E:\Cal\CSharp\Advantage.API\obj\Debug\netcoreapp2.2\Advantage.API.csprojAssemblyReference.cache
+E:\Cal\CSharp\Advantage.API\obj\Debug\netcoreapp2.2\Advantage.API.csproj.CoreCompileInputs.cache
+E:\Cal\CSharp\Advantage.API\obj\Debug\netcoreapp2.2\Advantage.API.RazorAssemblyInfo.cache
+E:\Cal\CSharp\Advantage.API\obj\Debug\netcoreapp2.2\Advantage.API.RazorAssemblyInfo.cs
+E:\Cal\CSharp\Advantage.API\obj\Debug\netcoreapp2.2\Advantage.API.AssemblyInfoInputs.cache
+E:\Cal\CSharp\Advantage.API\obj\Debug\netcoreapp2.2\Advantage.API.AssemblyInfo.cs
+E:\Cal\CSharp\Advantage.API\obj\Debug\netcoreapp2.2\Advantage.API.RazorTargetAssemblyInfo.cache
+E:\Cal\CSharp\Advantage.API\obj\Debug\netcoreapp2.2\Advantage.API.dll
+E:\Cal\CSharp\Advantage.API\obj\Debug\netcoreapp2.2\Advantage.API.pdb
