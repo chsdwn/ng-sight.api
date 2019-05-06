@@ -30,10 +30,11 @@ namespace Advantage.API
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddEntityFrameworkNpgsql()
                 .AddDbContext<ApiContext>(opt => opt.UseNpgsql(Configuration["secretConnectionString"]));
+            services.AddTransient<DataSeed>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, DataSeed seed)
         {
             if (env.IsDevelopment())
             {
@@ -42,11 +43,13 @@ namespace Advantage.API
             else
             {
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
+                app.UseHsts(); 
             }
 
             app.UseHttpsRedirection();
             app.UseMvc();
+
+            seed.SeedData(20,  1000);
         }
     }
 }
