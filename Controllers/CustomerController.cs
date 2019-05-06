@@ -17,9 +17,9 @@ namespace Advantage.API.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            var data = context.Customers.OrderBy(c => c.Id);
+            var customers = context.Customers.OrderBy(c => c.Id);
 
-            return Ok(data);
+            return Ok(customers);
         }
 
         [HttpGet("{id}", Name = "GetCustomer")]
