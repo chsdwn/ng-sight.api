@@ -47,7 +47,9 @@ namespace Advantage.API
             }
 
             app.UseHttpsRedirection();
-            app.UseMvc();
+            app.UseMvc(routes => routes.MapRoute(
+                "default", "api/{controller}/{action}/{id?}"
+            ));
 
             seed.SeedData(20,  1000);
         }
